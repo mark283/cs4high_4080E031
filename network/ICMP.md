@@ -204,6 +204,7 @@ tracert www.pchome.com.tw
 ```
 ```
 作業:tracert www.ksu.edu.tw
+![](tracert.png)
 ```
 ### TCP vs UDP 
 ```
