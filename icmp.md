@@ -86,15 +86,16 @@ MAC Address
 ```
 Internet Control Message Protocol
 ```
-ICMP Message Format封包格式:
-ICMP 封包格式
+### ICMP Message Format封包格式:
 
+![ICMP 封包格式](icmp_header.gif)
+```
 ICMP 封包格式，其各欄位功能如下：
 ● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 5-2 所示。
 ● 編碼（Code）：對各種訊息型態進一步說明工作內容。
 ● 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
-Message Type
+### Message Type
     ICMP 訊息功能
 
 [重要]0  Echo Reply（回應答覆）
